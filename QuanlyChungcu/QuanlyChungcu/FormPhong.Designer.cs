@@ -1,4 +1,7 @@
-﻿namespace QuanlyChungcu
+﻿using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
+
+namespace QuanlyChungcu
 {
     partial class FormPhong
     {
@@ -28,6 +31,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPhong));
             buttonXoa = new Button();
             buttonSua = new Button();
             buttonThem = new Button();
@@ -36,6 +40,13 @@
             datagridViewPhong = new DataGridView();
             groupBoxPhong1 = new GroupBox();
             buttonKhoiTao = new Button();
+            buttonThongKe = new Button();
+            nameMaPhong = new DataGridViewTextBoxColumn();
+            nameLoaiPhong = new DataGridViewTextBoxColumn();
+            nameDonGia = new DataGridViewTextBoxColumn();
+            nameTinhTrang = new DataGridViewTextBoxColumn();
+            nameDanhGia = new DataGridViewTextBoxColumn();
+            nameView = new DataGridViewImageColumn();
             groupBoxPhong2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)datagridViewPhong).BeginInit();
             SuspendLayout();
@@ -90,11 +101,13 @@
             // 
             datagridViewPhong.AllowUserToAddRows = false;
             datagridViewPhong.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            datagridViewPhong.Location = new Point(50, 52);
+            datagridViewPhong.Columns.AddRange(new DataGridViewColumn[] { nameMaPhong, nameLoaiPhong, nameDonGia, nameTinhTrang, nameDanhGia, nameView });
+            datagridViewPhong.Location = new Point(51, 58);
             datagridViewPhong.Name = "datagridViewPhong";
             datagridViewPhong.RowHeadersWidth = 51;
             datagridViewPhong.Size = new Size(562, 110);
             datagridViewPhong.TabIndex = 0;
+            datagridViewPhong.CellContentClick += datagridViewPhong_CellContentClick;
             // 
             // groupBoxPhong1
             // 
@@ -114,11 +127,66 @@
             buttonKhoiTao.Text = "Khởi tạo";
             buttonKhoiTao.UseVisualStyleBackColor = true;
             // 
+            // buttonThongKe
+            // 
+            buttonThongKe.Location = new Point(500, 283);
+            buttonThongKe.Name = "buttonThongKe";
+            buttonThongKe.Size = new Size(94, 29);
+            buttonThongKe.TabIndex = 13;
+            buttonThongKe.Text = "Thống kê";
+            buttonThongKe.UseVisualStyleBackColor = true;
+            buttonThongKe.Click += buttonThongKe_Click;
+            // 
+            // nameMaPhong
+            // 
+            nameMaPhong.HeaderText = "MaPhong";
+            nameMaPhong.MinimumWidth = 6;
+            nameMaPhong.Name = "nameMaPhong";
+            nameMaPhong.Width = 125;
+            // 
+            // nameLoaiPhong
+            // 
+            nameLoaiPhong.HeaderText = "LoaiPhong";
+            nameLoaiPhong.MinimumWidth = 6;
+            nameLoaiPhong.Name = "nameLoaiPhong";
+            nameLoaiPhong.Width = 125;
+            // 
+            // nameDonGia
+            // 
+            nameDonGia.HeaderText = "DonGia";
+            nameDonGia.MinimumWidth = 6;
+            nameDonGia.Name = "nameDonGia";
+            nameDonGia.Width = 125;
+            // 
+            // nameTinhTrang
+            // 
+            nameTinhTrang.HeaderText = "TinhTrang";
+            nameTinhTrang.MinimumWidth = 6;
+            nameTinhTrang.Name = "nameTinhTrang";
+            nameTinhTrang.Width = 125;
+            // 
+            // nameDanhGia
+            // 
+            nameDanhGia.HeaderText = "DanhGia";
+            nameDanhGia.MinimumWidth = 6;
+            nameDanhGia.Name = "nameDanhGia";
+            nameDanhGia.Width = 125;
+            // 
+            // nameView
+            // 
+            nameView.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            nameView.HeaderText = "";
+            nameView.Image = (System.Drawing.Image)resources.GetObject("nameView.Image");
+            nameView.MinimumWidth = 6;
+            nameView.Name = "nameView";
+            nameView.Width = 6;
+            // 
             // FormPhong
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(653, 528);
+            Controls.Add(buttonThongKe);
             Controls.Add(buttonKhoiTao);
             Controls.Add(buttonXoa);
             Controls.Add(buttonSua);
@@ -144,5 +212,12 @@
         private DataGridView datagridViewPhong;
         private GroupBox groupBoxPhong1;
         private Button buttonKhoiTao;
+        private Button buttonThongKe;
+        private DataGridViewTextBoxColumn nameMaPhong;
+        private DataGridViewTextBoxColumn nameLoaiPhong;
+        private DataGridViewTextBoxColumn nameDonGia;
+        private DataGridViewTextBoxColumn nameTinhTrang;
+        private DataGridViewTextBoxColumn nameDanhGia;
+        private DataGridViewImageColumn nameView;
     }
 }
