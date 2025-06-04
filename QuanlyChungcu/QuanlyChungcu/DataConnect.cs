@@ -51,6 +51,25 @@ namespace QuanlyChungcu
             return dt;
         }
 
+        public static DataTable GetData(String str, SqlParameter[] para)         //lấy dữ liệu đổ vào table
+        {
+
+            DataTable dt = new DataTable();
+
+            SqlCommand cmd;                   //khai báo lệnh
+            cmd = conn.CreateCommand();         //liên kết lệnh với kết nối
+
+            cmd.CommandText = str;
+            if (para != null)
+                cmd.Parameters.AddRange(para);
+
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            adapter.SelectCommand = cmd;      //trung gian nhận thực thi lệnh, lấy kết quả
+                                              //khi kết nối bật, tiến hành truy vấn
+            adapter.Fill(dt);                 //trung gian đổ kết quả vào table  
+            return dt;
+        }
+
         //Chỉ cần stored procedure có SELECT, thì SQL Server sẽ tự động trả về cái SELECT đầu tiên,
         //và SqlDataAdapter.Fill() có thể lấy được. Này cũng giống kiểu viết tường minh.
         public static void Proc(String procName, SqlParameter[] para)

@@ -83,7 +83,6 @@ namespace QuanlyChungcu
             timer3 = new System.Windows.Forms.Timer(components);
             timer4 = new System.Windows.Forms.Timer(components);
             timer5 = new System.Windows.Forms.Timer(components);
-            panelMain = new Panel();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
             panel5.SuspendLayout();
@@ -115,26 +114,23 @@ namespace QuanlyChungcu
             // 
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
-            panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1129, 68);
+            panel1.Size = new Size(903, 54);
             panel1.TabIndex = 0;
             // 
             // panel3
             // 
             panel3.Controls.Add(qlTPhong);
-            panel3.Location = new Point(4, 4);
-            panel3.Margin = new Padding(4);
+            panel3.Location = new Point(3, 3);
             panel3.Name = "panel3";
-            panel3.Size = new Size(248, 79);
+            panel3.Size = new Size(198, 63);
             panel3.TabIndex = 2;
             // 
             // qlTPhong
             // 
-            qlTPhong.Location = new Point(19, 18);
-            qlTPhong.Margin = new Padding(4);
+            qlTPhong.Location = new Point(15, 14);
             qlTPhong.Name = "qlTPhong";
-            qlTPhong.Size = new Size(209, 36);
+            qlTPhong.Size = new Size(167, 29);
             qlTPhong.TabIndex = 3;
             qlTPhong.Text = "Quản lý thuê phòng";
             qlTPhong.UseVisualStyleBackColor = true;
@@ -143,18 +139,16 @@ namespace QuanlyChungcu
             // panel4
             // 
             panel4.Controls.Add(KhachHang);
-            panel4.Location = new Point(4, 91);
-            panel4.Margin = new Padding(4);
+            panel4.Location = new Point(3, 72);
             panel4.Name = "panel4";
-            panel4.Size = new Size(248, 79);
+            panel4.Size = new Size(198, 63);
             panel4.TabIndex = 3;
             // 
             // KhachHang
             // 
-            KhachHang.Location = new Point(26, 20);
-            KhachHang.Margin = new Padding(4);
+            KhachHang.Location = new Point(21, 16);
             KhachHang.Name = "KhachHang";
-            KhachHang.Size = new Size(201, 36);
+            KhachHang.Size = new Size(161, 29);
             KhachHang.TabIndex = 3;
             KhachHang.Text = "Khách hàng";
             KhachHang.UseVisualStyleBackColor = true;
@@ -163,18 +157,16 @@ namespace QuanlyChungcu
             // panel5
             // 
             panel5.Controls.Add(Phòng);
-            panel5.Location = new Point(4, 178);
-            panel5.Margin = new Padding(4);
+            panel5.Location = new Point(3, 141);
             panel5.Name = "panel5";
-            panel5.Size = new Size(248, 79);
+            panel5.Size = new Size(198, 63);
             panel5.TabIndex = 4;
             // 
             // Phòng
             // 
-            Phòng.Location = new Point(26, 20);
-            Phòng.Margin = new Padding(4);
+            Phòng.Location = new Point(21, 16);
             Phòng.Name = "Phòng";
-            Phòng.Size = new Size(201, 36);
+            Phòng.Size = new Size(161, 29);
             Phòng.TabIndex = 3;
             Phòng.Text = "Phòng";
             Phòng.UseVisualStyleBackColor = true;
@@ -183,18 +175,16 @@ namespace QuanlyChungcu
             // panel6
             // 
             panel6.Controls.Add(HopDong);
-            panel6.Location = new Point(4, 265);
-            panel6.Margin = new Padding(4);
+            panel6.Location = new Point(3, 210);
             panel6.Name = "panel6";
-            panel6.Size = new Size(248, 79);
+            panel6.Size = new Size(198, 63);
             panel6.TabIndex = 4;
             // 
             // HopDong
             // 
-            HopDong.Location = new Point(26, 20);
-            HopDong.Margin = new Padding(4);
+            HopDong.Location = new Point(21, 16);
             HopDong.Name = "HopDong";
-            HopDong.Size = new Size(201, 36);
+            HopDong.Size = new Size(161, 29);
             HopDong.TabIndex = 3;
             HopDong.Text = "Hợp Đồng";
             HopDong.UseVisualStyleBackColor = true;
@@ -206,10 +196,9 @@ namespace QuanlyChungcu
             menuTPhong.Controls.Add(panel4);
             menuTPhong.Controls.Add(panel5);
             menuTPhong.Controls.Add(panel6);
-            menuTPhong.Location = new Point(4, 4);
-            menuTPhong.Margin = new Padding(4);
+            menuTPhong.Location = new Point(3, 3);
             menuTPhong.Name = "menuTPhong";
-            menuTPhong.Size = new Size(255, 86);
+            menuTPhong.Size = new Size(204, 207);
             menuTPhong.TabIndex = 5;
             // 
             // timer1
@@ -225,10 +214,9 @@ namespace QuanlyChungcu
             flowLayoutPanel1.Controls.Add(menuHoaDon);
             flowLayoutPanel1.Controls.Add(menuBaoCao);
             flowLayoutPanel1.Dock = DockStyle.Left;
-            flowLayoutPanel1.Location = new Point(0, 68);
-            flowLayoutPanel1.Margin = new Padding(4);
+            flowLayoutPanel1.Location = new Point(0, 54);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(288, 843);
+            flowLayoutPanel1.Size = new Size(230, 675);
             flowLayoutPanel1.TabIndex = 6;
             // 
             // menuThietBi
@@ -236,27 +224,24 @@ namespace QuanlyChungcu
             menuThietBi.Controls.Add(panel2);
             menuThietBi.Controls.Add(panel7);
             menuThietBi.Controls.Add(panel8);
-            menuThietBi.Location = new Point(4, 98);
-            menuThietBi.Margin = new Padding(4);
+            menuThietBi.Location = new Point(3, 216);
             menuThietBi.Name = "menuThietBi";
-            menuThietBi.Size = new Size(255, 86);
+            menuThietBi.Size = new Size(204, 69);
             menuThietBi.TabIndex = 7;
             // 
             // panel2
             // 
             panel2.Controls.Add(qlThietBi);
-            panel2.Location = new Point(4, 4);
-            panel2.Margin = new Padding(4);
+            panel2.Location = new Point(3, 3);
             panel2.Name = "panel2";
-            panel2.Size = new Size(248, 79);
+            panel2.Size = new Size(198, 63);
             panel2.TabIndex = 2;
             // 
             // qlThietBi
             // 
-            qlThietBi.Location = new Point(19, 18);
-            qlThietBi.Margin = new Padding(4);
+            qlThietBi.Location = new Point(15, 14);
             qlThietBi.Name = "qlThietBi";
-            qlThietBi.Size = new Size(209, 36);
+            qlThietBi.Size = new Size(167, 29);
             qlThietBi.TabIndex = 3;
             qlThietBi.Text = "Quản lý thiết bị";
             qlThietBi.UseVisualStyleBackColor = true;
@@ -265,18 +250,16 @@ namespace QuanlyChungcu
             // panel7
             // 
             panel7.Controls.Add(ThietBi);
-            panel7.Location = new Point(4, 91);
-            panel7.Margin = new Padding(4);
+            panel7.Location = new Point(3, 72);
             panel7.Name = "panel7";
-            panel7.Size = new Size(248, 79);
+            panel7.Size = new Size(198, 63);
             panel7.TabIndex = 3;
             // 
             // ThietBi
             // 
-            ThietBi.Location = new Point(26, 20);
-            ThietBi.Margin = new Padding(4);
+            ThietBi.Location = new Point(21, 16);
             ThietBi.Name = "ThietBi";
-            ThietBi.Size = new Size(201, 36);
+            ThietBi.Size = new Size(161, 29);
             ThietBi.TabIndex = 3;
             ThietBi.Text = "Thiết bị";
             ThietBi.UseVisualStyleBackColor = true;
@@ -284,18 +267,16 @@ namespace QuanlyChungcu
             // panel8
             // 
             panel8.Controls.Add(PhieuPhat);
-            panel8.Location = new Point(4, 178);
-            panel8.Margin = new Padding(4);
+            panel8.Location = new Point(3, 141);
             panel8.Name = "panel8";
-            panel8.Size = new Size(248, 79);
+            panel8.Size = new Size(198, 63);
             panel8.TabIndex = 4;
             // 
             // PhieuPhat
             // 
-            PhieuPhat.Location = new Point(26, 20);
-            PhieuPhat.Margin = new Padding(4);
+            PhieuPhat.Location = new Point(21, 16);
             PhieuPhat.Name = "PhieuPhat";
-            PhieuPhat.Size = new Size(201, 36);
+            PhieuPhat.Size = new Size(161, 29);
             PhieuPhat.TabIndex = 3;
             PhieuPhat.Text = "Phiếu Phạt";
             PhieuPhat.UseVisualStyleBackColor = true;
@@ -307,27 +288,24 @@ namespace QuanlyChungcu
             menuDichVu.Controls.Add(panel11);
             menuDichVu.Controls.Add(panel12);
             menuDichVu.Controls.Add(panel13);
-            menuDichVu.Location = new Point(4, 192);
-            menuDichVu.Margin = new Padding(4);
+            menuDichVu.Location = new Point(3, 291);
             menuDichVu.Name = "menuDichVu";
-            menuDichVu.Size = new Size(255, 432);
+            menuDichVu.Size = new Size(204, 346);
             menuDichVu.TabIndex = 8;
             // 
             // panel9
             // 
             panel9.Controls.Add(qlDichVu);
-            panel9.Location = new Point(4, 4);
-            panel9.Margin = new Padding(4);
+            panel9.Location = new Point(3, 3);
             panel9.Name = "panel9";
-            panel9.Size = new Size(248, 79);
+            panel9.Size = new Size(198, 63);
             panel9.TabIndex = 2;
             // 
             // qlDichVu
             // 
-            qlDichVu.Location = new Point(19, 18);
-            qlDichVu.Margin = new Padding(4);
+            qlDichVu.Location = new Point(15, 14);
             qlDichVu.Name = "qlDichVu";
-            qlDichVu.Size = new Size(209, 36);
+            qlDichVu.Size = new Size(167, 29);
             qlDichVu.TabIndex = 3;
             qlDichVu.Text = "Quản lý dịch vụ";
             qlDichVu.UseVisualStyleBackColor = true;
@@ -336,18 +314,16 @@ namespace QuanlyChungcu
             // panel10
             // 
             panel10.Controls.Add(DichVu);
-            panel10.Location = new Point(4, 91);
-            panel10.Margin = new Padding(4);
+            panel10.Location = new Point(3, 72);
             panel10.Name = "panel10";
-            panel10.Size = new Size(248, 79);
+            panel10.Size = new Size(198, 63);
             panel10.TabIndex = 3;
             // 
             // DichVu
             // 
-            DichVu.Location = new Point(26, 20);
-            DichVu.Margin = new Padding(4);
+            DichVu.Location = new Point(21, 16);
             DichVu.Name = "DichVu";
-            DichVu.Size = new Size(201, 36);
+            DichVu.Size = new Size(161, 29);
             DichVu.TabIndex = 3;
             DichVu.Text = "Dịch Vụ";
             DichVu.UseVisualStyleBackColor = true;
@@ -356,18 +332,16 @@ namespace QuanlyChungcu
             // panel11
             // 
             panel11.Controls.Add(PhieuDichVu);
-            panel11.Location = new Point(4, 178);
-            panel11.Margin = new Padding(4);
+            panel11.Location = new Point(3, 141);
             panel11.Name = "panel11";
-            panel11.Size = new Size(248, 79);
+            panel11.Size = new Size(198, 63);
             panel11.TabIndex = 4;
             // 
             // PhieuDichVu
             // 
-            PhieuDichVu.Location = new Point(26, 20);
-            PhieuDichVu.Margin = new Padding(4);
+            PhieuDichVu.Location = new Point(21, 16);
             PhieuDichVu.Name = "PhieuDichVu";
-            PhieuDichVu.Size = new Size(201, 36);
+            PhieuDichVu.Size = new Size(161, 29);
             PhieuDichVu.TabIndex = 3;
             PhieuDichVu.Text = "Phiếu dịch vụ";
             PhieuDichVu.UseVisualStyleBackColor = true;
@@ -375,18 +349,16 @@ namespace QuanlyChungcu
             // panel12
             // 
             panel12.Controls.Add(PhieuDien);
-            panel12.Location = new Point(4, 265);
-            panel12.Margin = new Padding(4);
+            panel12.Location = new Point(3, 210);
             panel12.Name = "panel12";
-            panel12.Size = new Size(248, 79);
+            panel12.Size = new Size(198, 63);
             panel12.TabIndex = 4;
             // 
             // PhieuDien
             // 
-            PhieuDien.Location = new Point(26, 20);
-            PhieuDien.Margin = new Padding(4);
+            PhieuDien.Location = new Point(21, 16);
             PhieuDien.Name = "PhieuDien";
-            PhieuDien.Size = new Size(201, 36);
+            PhieuDien.Size = new Size(161, 29);
             PhieuDien.TabIndex = 3;
             PhieuDien.Text = "Phiếu điện";
             PhieuDien.UseVisualStyleBackColor = true;
@@ -395,18 +367,16 @@ namespace QuanlyChungcu
             // panel13
             // 
             panel13.Controls.Add(PhieuNuoc);
-            panel13.Location = new Point(4, 352);
-            panel13.Margin = new Padding(4);
+            panel13.Location = new Point(3, 279);
             panel13.Name = "panel13";
-            panel13.Size = new Size(248, 79);
+            panel13.Size = new Size(198, 63);
             panel13.TabIndex = 9;
             // 
             // PhieuNuoc
             // 
-            PhieuNuoc.Location = new Point(26, 20);
-            PhieuNuoc.Margin = new Padding(4);
+            PhieuNuoc.Location = new Point(21, 16);
             PhieuNuoc.Name = "PhieuNuoc";
-            PhieuNuoc.Size = new Size(201, 36);
+            PhieuNuoc.Size = new Size(161, 29);
             PhieuNuoc.TabIndex = 3;
             PhieuNuoc.Text = "Phiếu nước";
             PhieuNuoc.UseVisualStyleBackColor = true;
@@ -417,27 +387,24 @@ namespace QuanlyChungcu
             menuHoaDon.Controls.Add(panel14);
             menuHoaDon.Controls.Add(panel15);
             menuHoaDon.Controls.Add(panel16);
-            menuHoaDon.Location = new Point(4, 632);
-            menuHoaDon.Margin = new Padding(4);
+            menuHoaDon.Location = new Point(3, 643);
             menuHoaDon.Name = "menuHoaDon";
-            menuHoaDon.Size = new Size(255, 86);
+            menuHoaDon.Size = new Size(204, 69);
             menuHoaDon.TabIndex = 9;
             // 
             // panel14
             // 
             panel14.Controls.Add(qlHoaDon);
-            panel14.Location = new Point(4, 4);
-            panel14.Margin = new Padding(4);
+            panel14.Location = new Point(3, 3);
             panel14.Name = "panel14";
-            panel14.Size = new Size(248, 79);
+            panel14.Size = new Size(198, 63);
             panel14.TabIndex = 2;
             // 
             // qlHoaDon
             // 
-            qlHoaDon.Location = new Point(19, 18);
-            qlHoaDon.Margin = new Padding(4);
+            qlHoaDon.Location = new Point(15, 14);
             qlHoaDon.Name = "qlHoaDon";
-            qlHoaDon.Size = new Size(209, 36);
+            qlHoaDon.Size = new Size(167, 29);
             qlHoaDon.TabIndex = 3;
             qlHoaDon.Text = "Quản lý hóa đơn";
             qlHoaDon.UseVisualStyleBackColor = true;
@@ -446,18 +413,16 @@ namespace QuanlyChungcu
             // panel15
             // 
             panel15.Controls.Add(HoaDonTPhong);
-            panel15.Location = new Point(4, 91);
-            panel15.Margin = new Padding(4);
+            panel15.Location = new Point(3, 72);
             panel15.Name = "panel15";
-            panel15.Size = new Size(248, 79);
+            panel15.Size = new Size(198, 63);
             panel15.TabIndex = 3;
             // 
             // HoaDonTPhong
             // 
-            HoaDonTPhong.Location = new Point(26, 20);
-            HoaDonTPhong.Margin = new Padding(4);
+            HoaDonTPhong.Location = new Point(21, 16);
             HoaDonTPhong.Name = "HoaDonTPhong";
-            HoaDonTPhong.Size = new Size(201, 36);
+            HoaDonTPhong.Size = new Size(161, 29);
             HoaDonTPhong.TabIndex = 3;
             HoaDonTPhong.Text = "Hóa đơn thuê phòng";
             HoaDonTPhong.UseVisualStyleBackColor = true;
@@ -466,18 +431,16 @@ namespace QuanlyChungcu
             // panel16
             // 
             panel16.Controls.Add(HoaDonDV);
-            panel16.Location = new Point(4, 178);
-            panel16.Margin = new Padding(4);
+            panel16.Location = new Point(3, 141);
             panel16.Name = "panel16";
-            panel16.Size = new Size(248, 79);
+            panel16.Size = new Size(198, 63);
             panel16.TabIndex = 4;
             // 
             // HoaDonDV
             // 
-            HoaDonDV.Location = new Point(26, 20);
-            HoaDonDV.Margin = new Padding(4);
+            HoaDonDV.Location = new Point(21, 16);
             HoaDonDV.Name = "HoaDonDV";
-            HoaDonDV.Size = new Size(201, 36);
+            HoaDonDV.Size = new Size(161, 29);
             HoaDonDV.TabIndex = 3;
             HoaDonDV.Text = "Hóa đơn dịch vụ";
             HoaDonDV.UseVisualStyleBackColor = true;
@@ -489,27 +452,24 @@ namespace QuanlyChungcu
             menuBaoCao.Controls.Add(panel19);
             menuBaoCao.Controls.Add(panel20);
             menuBaoCao.Controls.Add(panel17);
-            menuBaoCao.Location = new Point(4, 726);
-            menuBaoCao.Margin = new Padding(4);
+            menuBaoCao.Location = new Point(3, 718);
             menuBaoCao.Name = "menuBaoCao";
-            menuBaoCao.Size = new Size(255, 86);
+            menuBaoCao.Size = new Size(204, 69);
             menuBaoCao.TabIndex = 10;
             // 
             // panel18
             // 
             panel18.Controls.Add(BaoCao);
-            panel18.Location = new Point(4, 4);
-            panel18.Margin = new Padding(4);
+            panel18.Location = new Point(3, 3);
             panel18.Name = "panel18";
-            panel18.Size = new Size(248, 79);
+            panel18.Size = new Size(198, 63);
             panel18.TabIndex = 2;
             // 
             // BaoCao
             // 
-            BaoCao.Location = new Point(19, 18);
-            BaoCao.Margin = new Padding(4);
+            BaoCao.Location = new Point(15, 14);
             BaoCao.Name = "BaoCao";
-            BaoCao.Size = new Size(209, 36);
+            BaoCao.Size = new Size(167, 29);
             BaoCao.TabIndex = 3;
             BaoCao.Text = "Báo cáo";
             BaoCao.UseVisualStyleBackColor = true;
@@ -518,18 +478,16 @@ namespace QuanlyChungcu
             // panel19
             // 
             panel19.Controls.Add(DoanhThu);
-            panel19.Location = new Point(4, 91);
-            panel19.Margin = new Padding(4);
+            panel19.Location = new Point(3, 72);
             panel19.Name = "panel19";
-            panel19.Size = new Size(248, 79);
+            panel19.Size = new Size(198, 63);
             panel19.TabIndex = 3;
             // 
             // DoanhThu
             // 
-            DoanhThu.Location = new Point(26, 20);
-            DoanhThu.Margin = new Padding(4);
+            DoanhThu.Location = new Point(21, 16);
             DoanhThu.Name = "DoanhThu";
-            DoanhThu.Size = new Size(201, 36);
+            DoanhThu.Size = new Size(161, 29);
             DoanhThu.TabIndex = 3;
             DoanhThu.Text = "DoanhThu";
             DoanhThu.UseVisualStyleBackColor = true;
@@ -537,18 +495,16 @@ namespace QuanlyChungcu
             // panel20
             // 
             panel20.Controls.Add(ThongKe);
-            panel20.Location = new Point(4, 178);
-            panel20.Margin = new Padding(4);
+            panel20.Location = new Point(3, 141);
             panel20.Name = "panel20";
-            panel20.Size = new Size(248, 79);
+            panel20.Size = new Size(198, 63);
             panel20.TabIndex = 4;
             // 
             // ThongKe
             // 
-            ThongKe.Location = new Point(26, 20);
-            ThongKe.Margin = new Padding(4);
+            ThongKe.Location = new Point(21, 16);
             ThongKe.Name = "ThongKe";
-            ThongKe.Size = new Size(201, 36);
+            ThongKe.Size = new Size(161, 29);
             ThongKe.TabIndex = 3;
             ThongKe.Text = "Thống kê";
             ThongKe.UseVisualStyleBackColor = true;
@@ -556,18 +512,16 @@ namespace QuanlyChungcu
             // panel17
             // 
             panel17.Controls.Add(inBaoCao);
-            panel17.Location = new Point(4, 265);
-            panel17.Margin = new Padding(4);
+            panel17.Location = new Point(3, 210);
             panel17.Name = "panel17";
-            panel17.Size = new Size(248, 79);
+            panel17.Size = new Size(198, 63);
             panel17.TabIndex = 4;
             // 
             // inBaoCao
             // 
-            inBaoCao.Location = new Point(26, 20);
-            inBaoCao.Margin = new Padding(4);
+            inBaoCao.Location = new Point(21, 16);
             inBaoCao.Name = "inBaoCao";
-            inBaoCao.Size = new Size(201, 36);
+            inBaoCao.Size = new Size(161, 29);
             inBaoCao.TabIndex = 3;
             inBaoCao.Text = "In báo cáo";
             inBaoCao.UseVisualStyleBackColor = true;
@@ -592,24 +546,14 @@ namespace QuanlyChungcu
             timer5.Interval = 5;
             timer5.Tick += timer5_Tick;
             // 
-            // panelMain
-            // 
-            panelMain.Dock = DockStyle.Fill;
-            panelMain.Location = new Point(288, 68);
-            panelMain.Name = "panelMain";
-            panelMain.Size = new Size(841, 843);
-            panelMain.TabIndex = 8;
-            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1129, 911);
-            Controls.Add(panelMain);
+            ClientSize = new Size(903, 729);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(panel1);
             IsMdiContainer = true;
-            Margin = new Padding(4);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -693,6 +637,5 @@ namespace QuanlyChungcu
         private Button ThongKe;
         private System.Windows.Forms.Timer timer4;
         private System.Windows.Forms.Timer timer5;
-        private Panel panelMain;
     }
 }

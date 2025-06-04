@@ -280,12 +280,12 @@ namespace QuanlyChungcu
 
         private void LoadFormCon(Form formCon)
         {
-            panelMain.Controls.Clear();
-            formCon.TopLevel = false;
-            formCon.FormBorderStyle = FormBorderStyle.None;
-            formCon.Dock = DockStyle.Fill;
-            panelMain.Controls.Add(formCon);
-            formCon.Show();
+            //panelMain.Controls.Clear();
+            //formCon.TopLevel = false;
+            //formCon.FormBorderStyle = FormBorderStyle.None;
+            //formCon.Dock = DockStyle.Fill;
+            //panelMain.Controls.Add(formCon);
+            //formCon.Show();
         }
 
         private void DichVu_Click(object sender, EventArgs e)
