@@ -127,8 +127,23 @@ namespace QuanlyChungcu
             txtCSMoi.Clear();
             txtDonGia.Clear();
             txtThangSD.Clear();
-            txtThanhTien.Clear();
             LoadPhieuDien();
+        }
+
+        private void dgvDien_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvDien.Rows[e.RowIndex];
+                txtMaPhieuDien.Text = row.Cells["MaPhieuSDDien"].Value.ToString();
+                txtMaHopDong.Text = row.Cells["MaHopDong"].Value.ToString();
+                txtMaHoaDonDV.Text = row.Cells["MaHoaDonDV"].Value.ToString();
+                txtCSCu.Text = row.Cells["CSCu"].Value.ToString();
+                txtCSMoi.Text = row.Cells["CSMoi"].Value.ToString();
+                txtDonGia.Text = row.Cells["DonGia"].Value.ToString();
+                txtThangSD.Text = Convert.ToDateTime(row.Cells["ThangSD"].Value).ToString("yyyy-MM-dd");
+                // Hoặc tùy định dạng ngày bạn muốn hiển thị
+            }
         }
     }
 }

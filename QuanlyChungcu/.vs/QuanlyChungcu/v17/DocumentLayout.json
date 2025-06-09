@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|c:\\users\\lenovo\\desktop\\bt_c#\\qlchungcu\\quanlychungcu\\quanlychungcu\\formphieunuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formphieunuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\quanlychungcu\\formchitietphieudv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formchitietphieudv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|c:\\users\\lenovo\\desktop\\bt_c#\\qlchungcu\\quanlychungcu\\quanlychungcu\\formphieudv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formphieudv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\quanlychungcu\\formphieunuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formphieunuoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|c:\\users\\lenovo\\desktop\\bt_c#\\qlchungcu\\quanlychungcu\\quanlychungcu\\formphieudien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formphieudien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\quanlychungcu\\formphieudien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formphieudien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|c:\\users\\lenovo\\desktop\\bt_c#\\qlchungcu\\quanlychungcu\\quanlychungcu\\dataconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\dataconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\quanlychungcu\\formdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|c:\\users\\lenovo\\desktop\\bt_c#\\qlchungcu\\quanlychungcu\\quanlychungcu\\formhoadontphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formhoadontphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|c:\\users\\lenovo\\desktop\\bt_c#\\qlchungcu\\quanlychungcu\\quanlychungcu\\formphieudv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formphieudv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|c:\\users\\lenovo\\desktop\\bt_c#\\qlchungcu\\quanlychungcu\\quanlychungcu\\formkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|c:\\users\\lenovo\\desktop\\bt_c#\\qlchungcu\\quanlychungcu\\quanlychungcu\\formchitietphieudv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formchitietphieudv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|c:\\users\\lenovo\\desktop\\bt_c#\\qlchungcu\\quanlychungcu\\quanlychungcu\\formdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B021EC-223C-4C66-85BF-74C8A5A1B654}|QuanlyChungcu\\QuanlyChungcu.csproj|solutionrelative:quanlychungcu\\formdichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,39 +50,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormPhieuNuoc.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuNuoc.cs",
-              "RelativeDocumentMoniker": "QuanlyChungcu\\FormPhieuNuoc.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuNuoc.cs",
-              "RelativeToolTip": "QuanlyChungcu\\FormPhieuNuoc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T07:40:18.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormPhieuDien.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuDien.cs",
-              "RelativeDocumentMoniker": "QuanlyChungcu\\FormPhieuDien.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuDien.cs",
-              "RelativeToolTip": "QuanlyChungcu\\FormPhieuDien.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAswHoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:11:44.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormPhieuNuoc.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuNuoc.cs",
-              "RelativeDocumentMoniker": "QuanlyChungcu\\FormPhieuNuoc.cs",
-              "ToolTip": "E:\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuNuoc.cs [Design]",
+              "Title": "FormPhieuDV.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuDV.cs",
+              "RelativeDocumentMoniker": "QuanlyChungcu\\FormPhieuDV.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuDV.cs [Design]",
+              "RelativeToolTip": "QuanlyChungcu\\FormPhieuDV.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T14:25:38.702Z"
+              "WhenOpened": "2025-06-09T01:15:29.816Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormChiTietPhieuDV.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormChiTietPhieuDV.cs",
+              "RelativeDocumentMoniker": "QuanlyChungcu\\FormChiTietPhieuDV.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormChiTietPhieuDV.cs [Design]",
+              "RelativeToolTip": "QuanlyChungcu\\FormChiTietPhieuDV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T02:13:45.082Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -86,45 +78,68 @@
               "Title": "FormPhieuDien.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuDien.cs",
               "RelativeDocumentMoniker": "QuanlyChungcu\\FormPhieuDien.cs",
-              "ToolTip": "E:\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuDien.cs [Design]",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuDien.cs [Design]",
+              "RelativeToolTip": "QuanlyChungcu\\FormPhieuDien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T14:24:58.446Z"
+              "WhenOpened": "2025-06-06T01:10:06.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPhieuNuoc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuNuoc.cs",
+              "RelativeDocumentMoniker": "QuanlyChungcu\\FormPhieuNuoc.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuNuoc.cs [Design]",
+              "RelativeToolTip": "QuanlyChungcu\\FormPhieuNuoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:10:07.886Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DataConnect.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\DataConnect.cs",
-              "RelativeDocumentMoniker": "QuanlyChungcu\\DataConnect.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\DataConnect.cs",
-              "RelativeToolTip": "QuanlyChungcu\\DataConnect.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Title": "FormDichVu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormDichVu.cs",
+              "RelativeDocumentMoniker": "QuanlyChungcu\\FormDichVu.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormDichVu.cs [Design]",
+              "RelativeToolTip": "QuanlyChungcu\\FormDichVu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T07:17:08.681Z"
+              "WhenOpened": "2025-06-06T01:33:15.802Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FormHoaDonTPhong.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormHoaDonTPhong.cs",
-              "RelativeDocumentMoniker": "QuanlyChungcu\\FormHoaDonTPhong.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormHoaDonTPhong.cs",
-              "RelativeToolTip": "QuanlyChungcu\\FormHoaDonTPhong.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA4wBwAAAAkAAAAAAAAAA==",
+              "Title": "FormPhieuDV.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuDV.cs",
+              "RelativeDocumentMoniker": "QuanlyChungcu\\FormPhieuDV.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormPhieuDV.cs",
+              "RelativeToolTip": "QuanlyChungcu\\FormPhieuDV.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T07:28:23.966Z"
+              "WhenOpened": "2025-06-06T02:26:15.575Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FormKhachHang.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormKhachHang.cs",
-              "RelativeDocumentMoniker": "QuanlyChungcu\\FormKhachHang.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormKhachHang.cs",
-              "RelativeToolTip": "QuanlyChungcu\\FormKhachHang.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAqAAAAAAAAAA==",
+              "Title": "FormChiTietPhieuDV.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormChiTietPhieuDV.cs",
+              "RelativeDocumentMoniker": "QuanlyChungcu\\FormChiTietPhieuDV.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormChiTietPhieuDV.cs",
+              "RelativeToolTip": "QuanlyChungcu\\FormChiTietPhieuDV.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAqwKUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T07:17:55.913Z"
+              "WhenOpened": "2025-06-06T02:26:26.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormDichVu.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormDichVu.cs",
+              "RelativeDocumentMoniker": "QuanlyChungcu\\FormDichVu.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\bt_c#\\QLChungCu\\QuanlyChungcu\\QuanlyChungcu\\FormDichVu.cs",
+              "RelativeToolTip": "QuanlyChungcu\\FormDichVu.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAiwJMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T02:15:05.907Z"
             }
           ]
         }

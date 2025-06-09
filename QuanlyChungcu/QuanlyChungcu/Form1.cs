@@ -278,29 +278,73 @@ namespace QuanlyChungcu
 
         }
 
-        private void LoadFormCon(Form formCon)
-        {
-            //panelMain.Controls.Clear();
-            //formCon.TopLevel = false;
-            //formCon.FormBorderStyle = FormBorderStyle.None;
-            //formCon.Dock = DockStyle.Fill;
-            //panelMain.Controls.Add(formCon);
-            //formCon.Show();
-        }
+        FormDichVu formDichVu = null;
+        FormPhieuDien formPhieuDien = null;
+        FormPhieuNuoc formPhieuNuoc = null;
+        FormPhieuDV formPhieuDV = null;
 
         private void DichVu_Click(object sender, EventArgs e)
         {
-            LoadFormCon(new FormDichVu());
+            if (formDichVu == null)
+            {
+                formDichVu = new FormDichVu();
+                formDichVu.MdiParent = this;
+                formDichVu.Dock = DockStyle.Fill;
+                formDichVu.FormClosed += (s, args) => formDichVu = null;
+                formDichVu.Show();
+            }
+            else
+            {
+                formDichVu.Activate();
+            }
         }
 
         private void PhieuDien_Click(object sender, EventArgs e)
         {
-            LoadFormCon(new FormPhieuDien());
+            if (formPhieuDien == null)
+            {
+                formPhieuDien = new FormPhieuDien();
+                formPhieuDien.MdiParent = this;
+                formPhieuDien.Dock = DockStyle.Fill;
+                formPhieuDien.FormClosed += (s, args) => formPhieuDien = null;
+                formPhieuDien.Show();
+            }
+            else
+            {
+                formPhieuDien.Activate();
+            }
         }
 
         private void PhieuNuoc_Click(object sender, EventArgs e)
         {
-            LoadFormCon(new FormPhieuNuoc());
+            if (formPhieuNuoc == null)
+            {
+                formPhieuNuoc = new FormPhieuNuoc();
+                formPhieuNuoc.MdiParent = this;
+                formPhieuNuoc.Dock = DockStyle.Fill;
+                formPhieuNuoc.FormClosed += (s, args) => formPhieuNuoc = null;
+                formPhieuNuoc.Show();
+            }
+            else
+            {
+                formPhieuNuoc.Activate();
+            }
+        }
+
+        private void PhieuDichVu_Click(object sender, EventArgs e)
+        {
+            if (formPhieuDV == null)
+            {
+                formPhieuDV = new FormPhieuDV();
+                formPhieuDV.MdiParent = this;
+                formPhieuDV.Dock = DockStyle.Fill;
+                formPhieuDV.FormClosed += (s, args) => formPhieuDV = null;
+                formPhieuDV.Show();
+            }
+            else
+            {
+                formPhieuDV.Activate();
+            }
         }
     }
 }

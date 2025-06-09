@@ -1,6 +1,6 @@
 ﻿namespace QuanlyChungcu
 {
-    partial class FormPhieuDV
+    partial class FormChiTietPhieuDV
     {
         /// <summary>
         /// Required designer variable.
@@ -28,106 +28,93 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dgvPhieuDV = new DataGridView();
+            dgvChiTietPhieu = new DataGridView();
             groupBoxPDV2 = new GroupBox();
             groupBoxPDV1 = new GroupBox();
-            dtpNgaySD = new DateTimePicker();
-            txtMaHopDong = new TextBox();
-            lblMaHopDong = new Label();
-            lblNgaySD = new Label();
+            cboTenDV = new ComboBox();
+            txtSoLuong = new TextBox();
+            lblSoLuong = new Label();
             txtMaPhieu = new TextBox();
             lblMaPhieuSDDV = new Label();
-            txtMaHoaDon = new TextBox();
-            lblMaHoaDon = new Label();
+            lblTenDV = new Label();
+            btnReset = new Button();
             btnTimKiem = new Button();
             btnXoa = new Button();
             btnSua = new Button();
             btnThem = new Button();
-            btnReset = new Button();
-            ((System.ComponentModel.ISupportInitialize)dgvPhieuDV).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvChiTietPhieu).BeginInit();
             groupBoxPDV2.SuspendLayout();
             groupBoxPDV1.SuspendLayout();
             SuspendLayout();
             // 
-            // dgvPhieuDV
+            // dgvChiTietPhieu
             // 
-            dgvPhieuDV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvPhieuDV.Dock = DockStyle.Fill;
-            dgvPhieuDV.Location = new Point(3, 27);
-            dgvPhieuDV.Name = "dgvPhieuDV";
-            dgvPhieuDV.RowHeadersWidth = 62;
-            dgvPhieuDV.Size = new Size(902, 259);
-            dgvPhieuDV.TabIndex = 0;
-            dgvPhieuDV.CellClick += dgvPhieuDV_CellClick;
-            dgvPhieuDV.CellContentClick += dgvPhieuDV_CellContentClick;
+            dgvChiTietPhieu.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvChiTietPhieu.Dock = DockStyle.Fill;
+            dgvChiTietPhieu.Location = new Point(3, 27);
+            dgvChiTietPhieu.Name = "dgvChiTietPhieu";
+            dgvChiTietPhieu.RowHeadersWidth = 62;
+            dgvChiTietPhieu.Size = new Size(902, 259);
+            dgvChiTietPhieu.TabIndex = 0;
+            dgvChiTietPhieu.CellClick += dgvChiTietPhieu_CellClick;
+            dgvChiTietPhieu.CellContentClick += dgvChiTietPhieu_CellContentClick;
             // 
             // groupBoxPDV2
             // 
-            groupBoxPDV2.Controls.Add(dgvPhieuDV);
+            groupBoxPDV2.Controls.Add(dgvChiTietPhieu);
             groupBoxPDV2.Dock = DockStyle.Bottom;
             groupBoxPDV2.Location = new Point(0, 361);
             groupBoxPDV2.Name = "groupBoxPDV2";
             groupBoxPDV2.Size = new Size(908, 289);
-            groupBoxPDV2.TabIndex = 20;
+            groupBoxPDV2.TabIndex = 27;
             groupBoxPDV2.TabStop = false;
             groupBoxPDV2.Text = "GroupBoxPDV2";
             // 
             // groupBoxPDV1
             // 
-            groupBoxPDV1.Controls.Add(dtpNgaySD);
-            groupBoxPDV1.Controls.Add(txtMaHopDong);
-            groupBoxPDV1.Controls.Add(lblMaHopDong);
-            groupBoxPDV1.Controls.Add(lblNgaySD);
+            groupBoxPDV1.Controls.Add(cboTenDV);
+            groupBoxPDV1.Controls.Add(txtSoLuong);
+            groupBoxPDV1.Controls.Add(lblSoLuong);
             groupBoxPDV1.Controls.Add(txtMaPhieu);
             groupBoxPDV1.Controls.Add(lblMaPhieuSDDV);
-            groupBoxPDV1.Controls.Add(txtMaHoaDon);
-            groupBoxPDV1.Controls.Add(lblMaHoaDon);
+            groupBoxPDV1.Controls.Add(lblTenDV);
             groupBoxPDV1.Dock = DockStyle.Top;
             groupBoxPDV1.Location = new Point(0, 0);
             groupBoxPDV1.Name = "groupBoxPDV1";
-            groupBoxPDV1.Size = new Size(908, 243);
-            groupBoxPDV1.TabIndex = 19;
+            groupBoxPDV1.Size = new Size(908, 224);
+            groupBoxPDV1.TabIndex = 26;
             groupBoxPDV1.TabStop = false;
             groupBoxPDV1.Text = "GroupBoxPDV1";
             // 
-            // dtpNgaySD
+            // cboTenDV
             // 
-            dtpNgaySD.Location = new Point(596, 73);
-            dtpNgaySD.Name = "dtpNgaySD";
-            dtpNgaySD.Size = new Size(300, 31);
-            dtpNgaySD.TabIndex = 12;
+            cboTenDV.FormattingEnabled = true;
+            cboTenDV.Location = new Point(250, 124);
+            cboTenDV.Name = "cboTenDV";
+            cboTenDV.Size = new Size(182, 33);
+            cboTenDV.TabIndex = 8;
             // 
-            // txtMaHopDong
+            // txtSoLuong
             // 
-            txtMaHopDong.AcceptsReturn = true;
-            txtMaHopDong.Location = new Point(250, 180);
-            txtMaHopDong.Name = "txtMaHopDong";
-            txtMaHopDong.Size = new Size(150, 31);
-            txtMaHopDong.TabIndex = 11;
+            txtSoLuong.Location = new Point(599, 73);
+            txtSoLuong.Name = "txtSoLuong";
+            txtSoLuong.Size = new Size(150, 31);
+            txtSoLuong.TabIndex = 7;
             // 
-            // lblMaHopDong
+            // lblSoLuong
             // 
-            lblMaHopDong.AutoSize = true;
-            lblMaHopDong.Location = new Point(87, 180);
-            lblMaHopDong.Name = "lblMaHopDong";
-            lblMaHopDong.Size = new Size(122, 25);
-            lblMaHopDong.TabIndex = 10;
-            lblMaHopDong.Text = "Mã hợp đồng";
-            // 
-            // lblNgaySD
-            // 
-            lblNgaySD.AutoSize = true;
-            lblNgaySD.Location = new Point(465, 73);
-            lblNgaySD.Name = "lblNgaySD";
-            lblNgaySD.Size = new Size(125, 25);
-            lblNgaySD.TabIndex = 6;
-            lblNgaySD.Text = "Ngày sử dụng";
+            lblSoLuong.AutoSize = true;
+            lblSoLuong.Location = new Point(482, 73);
+            lblSoLuong.Name = "lblSoLuong";
+            lblSoLuong.Size = new Size(85, 25);
+            lblSoLuong.TabIndex = 6;
+            lblSoLuong.Text = "Số lượng";
             // 
             // txtMaPhieu
             // 
             txtMaPhieu.Location = new Point(250, 73);
             txtMaPhieu.Name = "txtMaPhieu";
-            txtMaPhieu.Size = new Size(150, 31);
+            txtMaPhieu.Size = new Size(182, 31);
             txtMaPhieu.TabIndex = 3;
             // 
             // lblMaPhieuSDDV
@@ -139,28 +126,31 @@
             lblMaPhieuSDDV.TabIndex = 2;
             lblMaPhieuSDDV.Text = "Mã phiếu dịch vụ";
             // 
-            // txtMaHoaDon
+            // lblTenDV
             // 
-            txtMaHoaDon.Location = new Point(250, 127);
-            txtMaHoaDon.Name = "txtMaHoaDon";
-            txtMaHoaDon.Size = new Size(150, 31);
-            txtMaHoaDon.TabIndex = 1;
+            lblTenDV.AutoSize = true;
+            lblTenDV.Location = new Point(87, 127);
+            lblTenDV.Name = "lblTenDV";
+            lblTenDV.Size = new Size(100, 25);
+            lblTenDV.TabIndex = 0;
+            lblTenDV.Text = "Tên dịch vụ";
             // 
-            // lblMaHoaDon
+            // btnReset
             // 
-            lblMaHoaDon.AutoSize = true;
-            lblMaHoaDon.Location = new Point(87, 127);
-            lblMaHoaDon.Name = "lblMaHoaDon";
-            lblMaHoaDon.Size = new Size(138, 25);
-            lblMaHoaDon.TabIndex = 0;
-            lblMaHoaDon.Text = "Mã hóa đơn DV";
+            btnReset.Location = new Point(761, 283);
+            btnReset.Name = "btnReset";
+            btnReset.Size = new Size(118, 36);
+            btnReset.TabIndex = 32;
+            btnReset.Text = "Reset";
+            btnReset.UseVisualStyleBackColor = true;
+            btnReset.Click += btnReset_Click;
             // 
             // btnTimKiem
             // 
             btnTimKiem.Location = new Point(588, 283);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(118, 36);
-            btnTimKiem.TabIndex = 24;
+            btnTimKiem.TabIndex = 31;
             btnTimKiem.Text = "Tìm kiếm";
             btnTimKiem.UseVisualStyleBackColor = true;
             btnTimKiem.Click += btnTimKiem_Click;
@@ -170,7 +160,7 @@
             btnXoa.Location = new Point(402, 283);
             btnXoa.Name = "btnXoa";
             btnXoa.Size = new Size(118, 36);
-            btnXoa.TabIndex = 23;
+            btnXoa.TabIndex = 30;
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = true;
             btnXoa.Click += btnXoa_Click;
@@ -180,7 +170,7 @@
             btnSua.Location = new Point(212, 283);
             btnSua.Name = "btnSua";
             btnSua.Size = new Size(118, 36);
-            btnSua.TabIndex = 22;
+            btnSua.TabIndex = 29;
             btnSua.Text = "Sửa";
             btnSua.UseVisualStyleBackColor = true;
             btnSua.Click += btnSua_Click;
@@ -190,37 +180,28 @@
             btnThem.Location = new Point(37, 283);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(118, 36);
-            btnThem.TabIndex = 21;
+            btnThem.TabIndex = 28;
             btnThem.Text = "Thêm";
             btnThem.UseVisualStyleBackColor = true;
             btnThem.Click += btnThem_Click;
             // 
-            // btnReset
-            // 
-            btnReset.Location = new Point(761, 283);
-            btnReset.Name = "btnReset";
-            btnReset.Size = new Size(118, 36);
-            btnReset.TabIndex = 25;
-            btnReset.Text = "Reset";
-            btnReset.UseVisualStyleBackColor = true;
-            btnReset.Click += btnReset_Click;
-            // 
-            // FormPhieuDV
+            // FormChiTietPhieuDV
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(908, 650);
-            Controls.Add(btnReset);
             Controls.Add(groupBoxPDV2);
             Controls.Add(groupBoxPDV1);
+            Controls.Add(btnReset);
             Controls.Add(btnTimKiem);
             Controls.Add(btnXoa);
             Controls.Add(btnSua);
             Controls.Add(btnThem);
-            Name = "FormPhieuDV";
-            Text = "FormPhieuDV";
-            Load += FormPhieuDV_Load;
-            ((System.ComponentModel.ISupportInitialize)dgvPhieuDV).EndInit();
+            Name = "FormChiTietPhieuDV";
+            Text = "FormChiTietPhieuDV";
+            FormClosed += FormChiTietPhieuDV_FormClosed;
+            Load += FormChiTietPhieuDV_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvChiTietPhieu).EndInit();
             groupBoxPDV2.ResumeLayout(false);
             groupBoxPDV1.ResumeLayout(false);
             groupBoxPDV1.PerformLayout();
@@ -229,21 +210,20 @@
 
         #endregion
 
-        private DataGridView dgvPhieuDV;
+        private DataGridView dgvChiTietPhieu;
         private GroupBox groupBoxPDV2;
         private GroupBox groupBoxPDV1;
-        private Label lblNgaySD;
+        private TextBox txtSoLuong;
+        private Label lblSoLuong;
         private TextBox txtMaPhieu;
         private Label lblMaPhieuSDDV;
-        private TextBox txtMaHoaDon;
-        private Label lblMaHoaDon;
+        private TextBox txtMaDV;
+        private Label lblTenDV;
+        private Button btnReset;
         private Button btnTimKiem;
         private Button btnXoa;
         private Button btnSua;
         private Button btnThem;
-        private Button btnReset;
-        private TextBox txtMaHopDong;
-        private Label lblMaHopDong;
-        private DateTimePicker dtpNgaySD;
+        private ComboBox cboTenDV;
     }
 }

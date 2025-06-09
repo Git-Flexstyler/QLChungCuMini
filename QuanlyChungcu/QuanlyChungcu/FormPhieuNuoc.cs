@@ -128,8 +128,34 @@ namespace QuanlyChungcu
             txtCSMoi.Clear();
             txtDonGia.Clear();
             txtThangSD.Clear();
-            txtThanhTien.Clear();
             LoadPhieuNuoc();
+        }
+
+        private void dgvNuoc_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0) // tránh trường hợp click vào header
+            {
+                DataGridViewRow row = dgvNuoc.Rows[e.RowIndex];
+
+                // Lấy dữ liệu từ các cell và đổ vào textbox tương ứng
+                txtMaPhieuNuoc.Text = row.Cells["MaPhieuSDNuoc"].Value?.ToString();
+                txtMaHopDong.Text = row.Cells["MaHopDong"].Value?.ToString();
+                txtMaHoaDonDV.Text = row.Cells["MaHoaDonDV"].Value?.ToString();
+                txtCSCu.Text = row.Cells["CSCu"].Value?.ToString();
+                txtCSMoi.Text = row.Cells["CSMoi"].Value?.ToString();
+                txtDonGia.Text = row.Cells["DonGia"].Value?.ToString();
+
+                // Với trường ngày tháng, convert sang string định dạng yyyy-MM-dd hoặc phù hợp
+                if (row.Cells["ThangSD"].Value != DBNull.Value)
+                {
+                    DateTime thangSD = Convert.ToDateTime(row.Cells["ThangSD"].Value);
+                    txtThangSD.Text = thangSD.ToString("yyyy-MM-dd");
+                }
+                else
+                {
+                    txtThangSD.Clear();
+                }
+            }
         }
     }
 }

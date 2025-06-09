@@ -14,7 +14,7 @@ namespace QuanlyChungcu
                 
         static DataConnect()            //khởi tạo này tự động chạy
         {                               //chạy đúng 1 lần duy nhất khi bất kỳ phương thức nào đầu tiên được gọi 
-            conn = new SqlConnection("Data Source=P117F001;Initial Catalog=QUAN_LY_CHUNG_CU;Integrated Security=True;Trust Server Certificate=True");
+            conn = new SqlConnection("Data Source=localhost\\SQLEXPRESS;Initial Catalog=QUANLYCHUNGCUMINI;Integrated Security=True;TrustServerCertificate=True");
         }
 
         public static SqlCommand createCommand()

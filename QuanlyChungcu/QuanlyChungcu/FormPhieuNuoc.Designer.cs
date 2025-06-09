@@ -34,8 +34,6 @@
             lblThangSD = new Label();
             groupBoxPN1 = new GroupBox();
             txtDonGia = new TextBox();
-            txtThanhTien = new TextBox();
-            lblThanhTien = new Label();
             txtThangSD = new TextBox();
             txtCSMoi = new TextBox();
             lblCSMoi = new Label();
@@ -80,11 +78,13 @@
             // dgvNuoc
             // 
             dgvNuoc.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvNuoc.Location = new Point(53, 39);
+            dgvNuoc.Dock = DockStyle.Fill;
+            dgvNuoc.Location = new Point(3, 27);
             dgvNuoc.Name = "dgvNuoc";
             dgvNuoc.RowHeadersWidth = 62;
-            dgvNuoc.Size = new Size(789, 225);
+            dgvNuoc.Size = new Size(902, 259);
             dgvNuoc.TabIndex = 0;
+            dgvNuoc.CellClick += dgvNuoc_CellClick;
             // 
             // lblThangSD
             // 
@@ -99,8 +99,6 @@
             // 
             groupBoxPN1.Controls.Add(txtDonGia);
             groupBoxPN1.Controls.Add(lblDonGia);
-            groupBoxPN1.Controls.Add(txtThanhTien);
-            groupBoxPN1.Controls.Add(lblThanhTien);
             groupBoxPN1.Controls.Add(txtThangSD);
             groupBoxPN1.Controls.Add(lblThangSD);
             groupBoxPN1.Controls.Add(txtCSMoi);
@@ -127,22 +125,6 @@
             txtDonGia.Name = "txtDonGia";
             txtDonGia.Size = new Size(150, 31);
             txtDonGia.TabIndex = 15;
-            // 
-            // txtThanhTien
-            // 
-            txtThanhTien.Location = new Point(627, 207);
-            txtThanhTien.Name = "txtThanhTien";
-            txtThanhTien.Size = new Size(150, 31);
-            txtThanhTien.TabIndex = 13;
-            // 
-            // lblThanhTien
-            // 
-            lblThanhTien.AutoSize = true;
-            lblThanhTien.Location = new Point(499, 207);
-            lblThanhTien.Name = "lblThanhTien";
-            lblThanhTien.Size = new Size(94, 25);
-            lblThanhTien.TabIndex = 12;
-            lblThanhTien.Text = "Thành tiền";
             // 
             // txtThangSD
             // 
@@ -311,8 +293,6 @@
         private Label lblThangSD;
         private GroupBox groupBoxPN1;
         private TextBox txtDonGia;
-        private TextBox txtThanhTien;
-        private Label lblThanhTien;
         private TextBox txtThangSD;
         private TextBox txtCSMoi;
         private Label lblCSMoi;

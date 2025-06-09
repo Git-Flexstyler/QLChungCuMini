@@ -125,10 +125,11 @@
             // dgvDichVu
             // 
             dgvDichVu.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvDichVu.Location = new Point(53, 39);
+            dgvDichVu.Dock = DockStyle.Fill;
+            dgvDichVu.Location = new Point(3, 27);
             dgvDichVu.Name = "dgvDichVu";
             dgvDichVu.RowHeadersWidth = 62;
-            dgvDichVu.Size = new Size(789, 225);
+            dgvDichVu.Size = new Size(902, 259);
             dgvDichVu.TabIndex = 0;
             dgvDichVu.CellClick += dgvDichVu_CellClick;
             // 

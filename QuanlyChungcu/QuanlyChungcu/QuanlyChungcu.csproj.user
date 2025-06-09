@@ -4,6 +4,9 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormChiTietPhieuDV.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormDichVu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -17,6 +20,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormNoiThatPhong.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormPhieuDien.cs">
